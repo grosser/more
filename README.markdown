@@ -30,6 +30,8 @@ Any `.css` file placed in `app/stylesheets` will be copied into `public/styleshe
     app/stylesheets/foo/bar.less  --> public/stylesheets/foo/bar.css
     app/stylesheets/bar.css       --> public/stylesheets/bar.css
 
+**Add the generated css to version control** or run `rake more:generate` after each deploy.
+
 ### Partials
 If you prefix a file with an underscore, it is considered to be a partial, and will not be parsed unless included in another file. Example:
 
